@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hh.waylightclient.RegisterActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fmlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+    <RadioGroup
+        android:id="@+id/rd_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/qmui_config_color_white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rd_map"
+            android:drawableTop="@drawable/rb_map_selector"
+            style="@style/button_tag_style"/>
+        <RadioButton
+            android:id="@+id/rd_event"
+            android:drawableTop="@drawable/rb_event_selector"
+            style="@style/button_tag_style"/>
+        <RadioButton
+            android:id="@+id/rd_msg"
+            android:drawableTop="@drawable/rb_msg_selector"
+            style="@style/button_tag_style"/>
+        <RadioButton
+            android:id="@+id/rd_people"
+            android:drawableTop="@drawable/rb_people_selector"
+            style="@style/button_tag_style"/>
+    </RadioGroup>
+</LinearLayout>
