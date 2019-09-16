@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qmuiteam.qmui.widget.QMUIWindowInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null">
+
+    <com.qmuiteam.qmui.layout.QMUILinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/splash_btn"
+        app:qmui_radius="4dp">
+        <com.qmuiteam.qmui.layout.QMUILinearLayout
+
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/qmui_config_color_white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:qmui_borderColor="?attr/qmui_config_color_separator"
+            app:qmui_outerNormalColor="?attr/qmui_config_color_background"
+            app:qmui_showBorderOnlyBeforeL="true"
+            app:qmui_shadowAlpha="0.1"
+            app:qmui_shadowElevation="14dp"
+            app:qmui_radius="4dp">
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_margin="8dp"
+                android:hint="Address"
+                android:textSize="15dp"
+                android:background="@null"/>
+        </com.qmuiteam.qmui.layout.QMUILinearLayout>
+
+        <com.qmuiteam.qmui.layout.QMUILinearLayout
+
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/qmui_config_color_white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:qmui_borderColor="?attr/qmui_config_color_separator"
+            app:qmui_outerNormalColor="?attr/qmui_config_color_background"
+            app:qmui_showBorderOnlyBeforeL="true"
+            app:qmui_shadowAlpha="0.1"
+            app:qmui_shadowElevation="14dp"
+            app:qmui_radius="4dp">
+            <EditText
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_margin="8dp"
+                android:hint="Time"
+                android:textSize="15dp"
+                android:background="@null"/>
+        </com.qmuiteam.qmui.layout.QMUILinearLayout>
+
+        <com.qmuiteam.qmui.layout.QMUILinearLayout
+
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:background="@color/qmui_config_color_white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:qmui_borderColor="?attr/qmui_config_color_separator"
+            app:qmui_outerNormalColor="?attr/qmui_config_color_background"
+            app:qmui_showBorderOnlyBeforeL="true"
+            app:qmui_shadowAlpha="0.1"
+            app:qmui_shadowElevation="14dp"
+            app:qmui_radius="4dp">
+            <EditText
+                android:id="@+id/discription"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_margin="8dp"
+                android:hint="Discription"
+                android:textSize="15dp"
+                android:background="@null"/>
+        </com.qmuiteam.qmui.layout.QMUILinearLayout>
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/btn_submit"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:padding="10dp"
+            android:text="SUBMIT"
+            android:textColor="@color/qmui_config_color_white"
+            android:textSize="15dp"
+            app:qmui_backgroundColor="@color/app_color_blue"
+            app:qmui_borderColor="@color/qmui_config_color_white"
+            app:qmui_borderWidth="1px"
+            app:qmui_radius="4dp" />
+
+
+    </com.qmuiteam.qmui.layout.QMUILinearLayout>
+
+
+
+
+
+</com.qmuiteam.qmui.widget.QMUIWindowInsetLayout>

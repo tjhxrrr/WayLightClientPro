@@ -28,6 +28,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHold
         TextView userName;
 
 
+
         public ViewHolder(View view){
             super(view);
             headImage= (ImageView) view.findViewById(R.id.head_image);
