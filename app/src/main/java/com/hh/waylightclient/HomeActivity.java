@@ -8,6 +8,7 @@ import android.widget.RadioGroup;
 
 import com.hh.waylightclient.Fragment.BaseFragmentForHome;
 import com.hh.waylightclient.Fragment.EventFragment;
+import com.hh.waylightclient.Fragment.EventGenresFragment;
 import com.hh.waylightclient.Fragment.MapFragment;
 import com.hh.waylightclient.Fragment.MessageFragment;
 
@@ -119,8 +120,8 @@ public class HomeActivity extends AppCompatActivity {
         mBaseFragment = new ArrayList<>();
         mBaseFragment.add(new MapFragment());//MapFragment
         mBaseFragment.add(new EventFragment());//
-        mBaseFragment.add(new MapFragment());//todo
         mBaseFragment.add(new MessageFragment());//
+        mBaseFragment.add(new EventGenresFragment());//
     }
 
     private void initView() {

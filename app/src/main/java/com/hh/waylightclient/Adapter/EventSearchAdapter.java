@@ -104,6 +104,7 @@ public class EventSearchAdapter extends RecyclerView.Adapter<EventSearchAdapter.
                     public void onClick(View v) {
                         Toast.makeText(v.getContext(), "已添加到日程", Toast.LENGTH_SHORT).show();
                         popupWindow.dismiss();
+                        holder.add.setVisibility(View.INVISIBLE);
                     }
                 });
             }
