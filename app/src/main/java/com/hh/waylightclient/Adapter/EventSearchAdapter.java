@@ -37,7 +37,8 @@ public class EventSearchAdapter extends RecyclerView.Adapter<EventSearchAdapter.
     public class ViewHolder extends RecyclerView.ViewHolder{
         ImageView eventTypeImage;
         TextView time;
-        TextView content;//包含地点
+        TextView content;
+        TextView location;
         Button dislike;
         Button add;
 
@@ -46,6 +47,7 @@ public class EventSearchAdapter extends RecyclerView.Adapter<EventSearchAdapter.
             super(view);
             eventTypeImage= (ImageView) view.findViewById(R.id.img_eventType);
             time=(TextView) view.findViewById(R.id.timePeriod);
+            location=(TextView)view.findViewById(R.id.location);
             content=(TextView)view.findViewById(R.id.content);
             dislike=(Button)view.findViewById(R.id.dislike);
             add=(Button)view.findViewById(R.id.add);
@@ -70,6 +72,7 @@ public class EventSearchAdapter extends RecyclerView.Adapter<EventSearchAdapter.
         EventEntity event=eventList.get(position);
         holder.eventTypeImage.setImageResource(event.getType());
         holder.time.setText(event.getTime());
+        holder.location.setText(event.getLocation());
         holder.content.setText(event.getContent());
         holder.dislike.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -95,8 +98,8 @@ public class EventSearchAdapter extends RecyclerView.Adapter<EventSearchAdapter.
                 EditText time=(EditText) vPopupWindow.findViewById(R.id.time);
                 EditText address=(EditText)vPopupWindow.findViewById(R.id.address);
                 EditText discription=(EditText)vPopupWindow.findViewById(R.id.discription);
-                time.setText("8:00-11:00");
-                address.setText("武汉大学资源与环境科学学院");
+                time.setText("14:30");
+                address.setText("武汉大学-测绘学院");
                 discription.setText("讲座");
 
                 submit.setOnClickListener(new View.OnClickListener() {

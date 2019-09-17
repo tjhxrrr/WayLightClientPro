@@ -26,7 +26,7 @@ public class EventFragment extends BaseFragmentForHome {
     private ViewPager viewPager;
     private RnLFmPagerAdapter pagerAdapter;
     private ArrayList<Fragment> fragments = new ArrayList<>();
-    private String[] titles = new String[]{"SEARCH","EXPLORE","TRACKED"};
+    private String[] titles = new String[]{"SEARCH","ADD","PUBLISH"};
 
     @Override
     protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -36,10 +36,17 @@ public class EventFragment extends BaseFragmentForHome {
         viewPager = (ViewPager) view.findViewById(R.id.viewpager);
 
         //todo:将来三个菜单不能完全一样
-        for(int i=0;i<titles.length;i++){
-            fragments.add(new EventSearchFragment());
-            tabLayout.addTab(tabLayout.newTab());
-        }
+        fragments.add(new EventSearchFragment());
+        tabLayout.addTab(tabLayout.newTab());
+        fragments.add(new AddEventFragment());
+        tabLayout.addTab(tabLayout.newTab());
+        fragments.add(new PublishEventFragment());
+        tabLayout.addTab(tabLayout.newTab());
+        /*
+        fragments.add(new EventFragment());
+        tabLayout.addTab(tabLayout.newTab());*/
+
+
 
         tabLayout.setupWithViewPager(viewPager,false);
         pagerAdapter = new RnLFmPagerAdapter(fragments,getChildFragmentManager());

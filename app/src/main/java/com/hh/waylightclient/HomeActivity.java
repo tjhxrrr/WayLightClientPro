@@ -38,10 +38,6 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Start the service
-        ServiceManager serviceManager = new ServiceManager(this);
-        serviceManager.setNotificationIcon(org.androidpn.demoapp.R.drawable.notification);
-        serviceManager.startService();
 
         //初始化View
         initView();
@@ -54,7 +50,7 @@ public class HomeActivity extends AppCompatActivity {
     private void setListener() {
         mRg_main.setOnCheckedChangeListener(new MyOnCheckedChangeListener());
         //设置默认选中框架页面
-        mRg_main.check(R.id.rd_map);
+        mRg_main.check(R.id.rd_event);
     }
 
     class MyOnCheckedChangeListener implements RadioGroup.OnCheckedChangeListener{

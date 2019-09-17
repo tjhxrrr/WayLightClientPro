@@ -4,19 +4,35 @@
     android:layout_height="match_parent"
     android:background="@color/qmui_config_color_white"
     android:orientation="vertical">
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="MESSAGE"
-        android:gravity="center_horizontal"
-        android:textColor="@color/qmui_config_color_gray_1"
-        android:textSize="16dp"/>
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="MESSAGE"
+            android:layout_weight="4"
+            android:textColor="@color/qmui_config_color_gray_1"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/addfriends"/>
+
+    </LinearLayout>
+
+
     <View
-        android:layout_width="fill_parent"
-        android:layout_height="1px"
-        android:background="@color/qmui_config_color_gray_1"  />
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".5"
+        android:background="@color/qmui_config_color_gray_1" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"

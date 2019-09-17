@@ -4,10 +4,12 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
+    <ImageView
+        android:id="@+id/img_map"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello！"
-        android:layout_gravity="center" />
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:background="@drawable/selector_planroutes"
+        />
 
 </LinearLayout>

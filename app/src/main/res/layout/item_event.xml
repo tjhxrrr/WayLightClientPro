@@ -6,7 +6,7 @@
     android:background="@color/qmui_config_color_white">
     <com.qmuiteam.qmui.layout.QMUILinearLayout
         android:id="@+id/event"
-        android:layout_width="300dp"
+        android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
@@ -16,20 +16,21 @@
         app:qmui_borderColor="?attr/qmui_config_color_separator"
         app:qmui_outerNormalColor="?attr/qmui_config_color_background"
         app:qmui_showBorderOnlyBeforeL="true"
-        app:qmui_shadowAlpha="0.1"
+        app:qmui_shadowAlpha="0.3"
         app:qmui_shadowElevation="14dp"
         app:qmui_radius="4dp">
         <ImageView
             android:id="@+id/img_eventType"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginBottom="5dp"
-            android:layout_weight="0.3"
+            android:layout_marginRight="5dp"
             />
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1"
             android:layout_marginTop="2dp"
@@ -47,13 +48,26 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.7"
                     android:textColor="@color/qmui_config_color_gray_2"
-                    android:textSize="22sp" />
+                    android:textSize="18sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_weight="0.1">
+                    android:layout_marginRight="10dp">
+                    <Button
+                        android:id="@+id/chat"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/chat"
+                        android:clickable="true"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp">
                     <Button
                         android:id="@+id/add"
                         android:layout_width="20dp"
@@ -68,7 +82,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_weight="0.15">
+                    android:layout_marginRight="10dp">
                     <Button
                         android:id="@+id/dislike"
                         android:layout_width="20dp"
@@ -82,12 +96,21 @@
             </LinearLayout>
 
             <TextView
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:textSize="15dp"
+                android:textColor="@color/qmui_config_color_gray_5" />
+
+            <TextView
                 android:id="@+id/content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.4"
-                android:textSize="16dp"
-                android:textColor="@color/qmui_config_color_gray_5" />
+                android:textSize="15dp"
+                android:textColor="@color/qmui_config_color_gray_5"
+                android:layout_marginTop="5dp"/>
 
         </LinearLayout>
     </com.qmuiteam.qmui.layout.QMUILinearLayout>

@@ -47,10 +47,14 @@ public class MessageFragment extends BaseFragmentForHome {
     @Override
     protected void initData() {
         super.initData();
-        for(int i=0;i<8;i++){
-            MessageObjectEntity messageObject = new MessageObjectEntity("Hello!", R.drawable.headimage,"Serena");
-            messageObjectList.add(messageObject);
-        }
+        MessageObjectEntity messageObject = new MessageObjectEntity("Hello!", R.drawable.headimage,"+7Ricky");
+        messageObjectList.add(messageObject);
+
+        messageObject = new MessageObjectEntity("已接", R.drawable.headimg,"丁家祺");
+        messageObjectList.add(messageObject);
+
+        messageObject = new MessageObjectEntity("好的，谢谢~", R.drawable.headimage2,"金蕾");
+        messageObjectList.add(messageObject);
 
     }
 }

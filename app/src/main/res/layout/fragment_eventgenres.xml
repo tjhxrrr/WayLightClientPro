@@ -89,7 +89,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="4"
+                    android:text="6"
                     android:textColor="#FFFFFF"
                     android:textSize="25dp" />
             </LinearLayout>
@@ -147,10 +147,11 @@
 
                 <ImageView
                     android:id="@+id/img_contest"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="20dp"
+                    android:layout_height="22dp"
                     android:layout_centerInParent="true"
-                    android:background="@drawable/event" />
+                    android:background="@drawable/contest"
+                    android:alpha="0.4"/>
             </RelativeLayout>
 
             <TextView
@@ -325,10 +326,11 @@
 
                 <ImageView
                     android:id="@+id/img_exhibition"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
                     android:layout_centerInParent="true"
-                    android:background="@drawable/event" />
+                    android:background="@drawable/exhibition"
+                    android:alpha="0.4"/>
             </RelativeLayout>
 
             <TextView

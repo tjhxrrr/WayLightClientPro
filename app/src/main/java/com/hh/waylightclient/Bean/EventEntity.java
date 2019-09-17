@@ -7,11 +7,13 @@ package com.hh.waylightclient.Bean;
 public class EventEntity {
     private int type;
     private String time;
-    private String content;//包含location
+    private String content;
+    private String location;
 
-    public EventEntity(String time, String content,int type){
+    public EventEntity(String time, String location,String content,int type){
         this.time=time;;
         this.content=content;
+        this.location=location;
         this.type=type;
     }
 
@@ -20,6 +22,9 @@ public class EventEntity {
     }
     public String getTime() {
         return time;
+    }
+    public String getLocation() {
+        return location;
     }
 
     public String getContent() {

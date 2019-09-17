@@ -9,6 +9,15 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [
+                GETUI_APP_ID    : "fdoY4hq7orArRbAOouXPj5",
+                GETUI_APP_KEY   : "rtJzo20ivv6EZ7yd6Towg8",
+                GETUI_APP_SECRET: "Nkv8vcGicJ7NVxuzKpmCd8"
+        ]
+        ndk {
+            // 添加项目所需CPU类型的最小集
+            abiFilters "armeabi", "armeabi-v7a", "x86_64"
+        }
     }
     buildTypes {
         release {
@@ -38,4 +47,5 @@ dependencies {
     implementation 'com.qmuiteam:arch:0.3.1'
     implementation 'com.android.support:design:28.0.0-alpha3'
     implementation project(':mylibrary')
+    implementation 'com.getui:sdk:2.13.3.0'
 }

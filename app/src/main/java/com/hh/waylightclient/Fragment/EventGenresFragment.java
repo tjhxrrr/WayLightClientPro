@@ -23,7 +23,6 @@ import com.hh.waylightclient.R;
  */
 
 public class EventGenresFragment extends BaseFragmentForHome {
-    private TextView textView;
     RelativeLayout lecture;
 
     @Override
