@@ -4,6 +4,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.RadioGroup;
 
 import com.hh.waylightclient.Fragment.BaseFragmentForHome;
@@ -11,6 +13,9 @@ import com.hh.waylightclient.Fragment.EventFragment;
 import com.hh.waylightclient.Fragment.EventGenresFragment;
 import com.hh.waylightclient.Fragment.MapFragment;
 import com.hh.waylightclient.Fragment.MessageFragment;
+
+import org.androidpn.client.ServiceManager;
+import org.androidpn.demoapp.DemoAppActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +37,12 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Start the service
+        ServiceManager serviceManager = new ServiceManager(this);
+        serviceManager.setNotificationIcon(org.androidpn.demoapp.R.drawable.notification);
+        serviceManager.startService();
+
         //初始化View
         initView();
         //初始化Fragment

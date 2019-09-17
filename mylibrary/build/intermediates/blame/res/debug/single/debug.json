@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\raw_androidpn.properties.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\raw\\androidpn.properties"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification.png.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\drawable\\notification.png"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification.png.flat",
+        "source": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\src\\main\\res\\drawable\\notification.png"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\raw_androidpn.properties.flat",
+        "source": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\src\\main\\res\\raw\\androidpn.properties"
+    },
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
+        "source": "C:\\Users\\thinkpad\\Downloads\\ac2\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    }
+]

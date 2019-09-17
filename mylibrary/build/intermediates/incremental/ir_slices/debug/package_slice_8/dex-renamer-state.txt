@@ -1,0 +1,4 @@
+#Mon Sep 16 01:40:04 GMT+08:00 2019
+base.0=E\:\\ac2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex

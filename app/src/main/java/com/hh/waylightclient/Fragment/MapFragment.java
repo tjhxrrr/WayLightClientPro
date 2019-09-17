@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 public class MapFragment extends BaseFragmentForHome{
     private TextView textView;
+
     private static final String TAG =MapFragment.class.getSimpleName();//得到“CommonFrameFragment”
 
     @Override

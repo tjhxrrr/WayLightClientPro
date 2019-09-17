@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,108,174",
+                        "endColumns": "52,65,45",
+                        "endOffsets": "103,169,215"
+                    }
+                }
+            ]
+        }
+    ]
+}

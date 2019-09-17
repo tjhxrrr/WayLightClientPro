@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\release\\layout_main.xml.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_icon.png.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\release\\raw_androidpn.properties.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\raw\\androidpn.properties"
+    },
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\release\\drawable_notification.png.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\drawable\\notification.png"
+    },
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_icon.png.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "E:\\ac2\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_icon.png.flat",
+        "source": "E:\\ac2\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    }
+]

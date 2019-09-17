@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_androidpn.properties.flat",
+        "source": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\bundles\\debug\\res\\raw\\androidpn.properties"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification.png.flat",
+        "source": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\notification.png"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_icon.png.flat",
+        "source": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4_icon.png.flat",
+        "source": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_icon.png.flat",
+        "source": "C:\\Users\\thinkpad\\Desktop\\WaylightClient\\mylibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon.png"
+    }
+]
